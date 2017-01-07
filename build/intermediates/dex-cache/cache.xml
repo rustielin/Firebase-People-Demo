@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7a38cc68371d102d5fb91c4269eb56de4e74b744">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_863a6211de1da81b46b16fad13b8aa6b36ab8d15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_eb0a0500b0156940a1b84e625276e263dd495124\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_82cf041ea7c604792e7c2ad7be3cd85941a33393\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_82e538c77a9746bf792e1403eee4a2375e94f119\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_b11b400b42ffc005eb254b9617d0b6d522ec9117\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_7a33d6250894aa25eb208675866c05902ab9aeec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_5bc22765151846ab5804a8beb248a698e01da44d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ed7e053d764610b02f77963156db6adb3bd3d1f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ec1b52707ca035561fc8ca2ad5f8e75149a50b95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_46fc034bc085fa27be5454025ac85ee1618c74a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_32788f2c4b2d6fb7c0cbaa8a01c809085cf0fa4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_5c164cfddf2f6b01b79a3f194d25ca578f3b005a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_5f89009c7e4afa3eb20ec77950c9c2626912bd6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_0f2cbd54c6397c465283938a8b8534e4bc72cd12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_ef6cc9886c4ed01bf8640c6c67257ff51426c4f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_bb1fd20ae43150003a3cf47da40223dbe6e233a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_638e07d3e57e23477703ba54746fe0c9c4e96827\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_5989ad5170ff172cbe975a57f09017433f3f3718\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_dbf212f1b057471a72b94dac5669417eebd9e824\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_6639cb99912f7b6784a0add5fef822277f14365e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d96a8bd2d0ae357918ef02a686b0a9c784f596d1">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_44cf0dc312138ae2846661e60f75c95e8eed8254\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_047912736bbd57b961b9089d8cd3c69a640e07f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_c85ad98779c970304759a48b299381d1e46df926\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_b26396dd61ab9a94da99d3c919b6177960eb017e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_d7789eb8e15ace3d86e383b12da3b024d5e08b38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_6e86bbed9f33c5aceab1527c0d5cb09ba4f8a64d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\rusti_000\Code\Android\FirebasePeopleDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_e6e20eaca2dc1e5615fb06edad20bdb3da2257e4\classes.dex" />
+    </item>
+
+</items>
