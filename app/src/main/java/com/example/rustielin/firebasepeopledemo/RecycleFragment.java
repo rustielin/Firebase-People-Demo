@@ -10,10 +10,12 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -40,11 +42,13 @@ public class RecycleFragment extends Fragment {
     private EditText email_prompt;
     private AutoCompleteTextView majors_prompt;
 
-    private ArrayList<Person> personList = new ArrayList<>();
+    private ArrayList<Person> personList;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        personList = new ArrayList<>();
+
     }
 
     @Nullable
@@ -60,8 +64,8 @@ public class RecycleFragment extends Fragment {
         mRecyclerView = (RecyclerView) v.findViewById(R.id.recycler_view);
         mRecyclerView.setHasFixedSize(true);
 
-        // use a linear layout manager
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+
         this.getPeople();
 
         // prompts user to add a Person with an AlertDialog
@@ -76,7 +80,7 @@ public class RecycleFragment extends Fragment {
     }
 
     /**
-     *  Promps user input for new Person (name, email, majors) using AlertDialog
+     *  Prompts user input for new Person (name, email, majors) using AlertDialog
      *  Adds new Person to Firebase database using addPerson method
      */
     private void promptUserInput() {
@@ -159,7 +163,7 @@ public class RecycleFragment extends Fragment {
     }
 
     /**
-     *  Resets and updates list of People, personList
+     *  Resets and updates personList to whatever's on Firebase
      *  Displays personList via a RecyclerView
      */
     private void update(DataSnapshot dataSnapshot) {

@@ -1,11 +1,14 @@
 package com.example.rustielin.firebasepeopledemo;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -18,11 +21,11 @@ import java.util.List;
  */
 
 
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder>{
+public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
 
     private List<Person> mDataset;
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView nameTextView;
         public TextView emailTextView;
         public TextView majorsTextView;
@@ -34,6 +37,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             emailTextView = (TextView) itemView.findViewById(R.id.person_email);
             majorsTextView = (TextView) itemView.findViewById(R.id.person_majors);
         }
+
     }
 
     public RecyclerAdapter(List<Person> dataset) {
@@ -42,7 +46,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
     @Override
     public RecyclerAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        // create new views
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.person_entry, parent, false);
         ViewHolder vh = new ViewHolder(v);
         return vh;
@@ -59,6 +62,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         TextView majors = holder.majorsTextView;
         majors.setText("Majors: " + person.getMajors());
     }
+
 
     @Override
     public int getItemCount() {
