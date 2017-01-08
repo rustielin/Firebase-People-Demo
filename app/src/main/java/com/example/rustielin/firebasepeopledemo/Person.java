@@ -2,12 +2,11 @@ package com.example.rustielin.firebasepeopledemo;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by Rustie Lin on 1/5/2017.
+ *
+ * Represents a Person (student really) with a name, email, and major(s) using String
  */
 
 @IgnoreExtraProperties

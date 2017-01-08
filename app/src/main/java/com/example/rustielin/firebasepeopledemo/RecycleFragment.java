@@ -24,7 +24,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 
 /**
- * Created by Rustie Lin on 1/7/2017.
+ * Created by Rustie Lin on 1/6/2017.
+ *
+ * Fragment for the RecyclerView
  */
 
 public class RecycleFragment extends Fragment {
@@ -43,15 +45,13 @@ public class RecycleFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.recycle_layout, container, false);
 
+        View v = inflater.inflate(R.layout.recycle_layout, container, false);
         FloatingActionButton fab = (FloatingActionButton) v.findViewById(R.id.fab);
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
@@ -62,7 +62,6 @@ public class RecycleFragment extends Fragment {
 
         // use a linear layout manager
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-
         this.getPeople();
 
         // prompts user to add a Person with an AlertDialog
@@ -76,6 +75,10 @@ public class RecycleFragment extends Fragment {
         return v;
     }
 
+    /**
+     *  Promps user input for new Person (name, email, majors) using AlertDialog
+     *  Adds new Person to Firebase database using addPerson method
+     */
     private void promptUserInput() {
 
         LayoutInflater li = LayoutInflater.from(getActivity());
@@ -88,7 +91,6 @@ public class RecycleFragment extends Fragment {
         email_prompt = (EditText) promptView.findViewById(R.id.email);
         majors_prompt = (AutoCompleteTextView) promptView.findViewById(R.id.majors);
 
-
         alertDialogBuilder
                 .setCancelable(false)
                 .setPositiveButton("OK",
@@ -98,7 +100,6 @@ public class RecycleFragment extends Fragment {
                                 addPerson(name_prompt.getText().toString(),
                                         email_prompt.getText().toString(),
                                         majors_prompt.getText().toString());
-
                             }
                         })
                 .setNegativeButton("Cancel",
@@ -109,15 +110,14 @@ public class RecycleFragment extends Fragment {
                             }
                         });
 
-        // create alert dialog
         AlertDialog alertDialog = alertDialogBuilder.create();
-
-        // show it
         alertDialog.show();
     }
 
+    /**
+     *  Constructs a new Person and adds to Firebase database
+     */
     private void addPerson(String name, String email, String majors) {
-        // actually makes the Person and writes to Firebase
         Person person = new Person();
         person.setName(name);
         person.setEmail(email);
@@ -126,6 +126,9 @@ public class RecycleFragment extends Fragment {
         mDatabase.child("People").push().setValue(person);
     }
 
+    /**
+     *  Listen for data change and get resulting list of People
+     */
     private void getPeople() {
         mDatabase.addChildEventListener(new ChildEventListener() {
             @Override
@@ -140,12 +143,12 @@ public class RecycleFragment extends Fragment {
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-
+                update(dataSnapshot);
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
+                update(dataSnapshot);
             }
 
             @Override
@@ -155,8 +158,11 @@ public class RecycleFragment extends Fragment {
         });
     }
 
+    /**
+     *  Resets and updates list of People, personList
+     *  Displays personList via a RecyclerView
+     */
     private void update(DataSnapshot dataSnapshot) {
-        // also deal with entry removal
         personList.clear();
 
         for (DataSnapshot ds: dataSnapshot.getChildren()) {
@@ -165,14 +171,15 @@ public class RecycleFragment extends Fragment {
             person.setEmail(ds.getValue(Person.class).getEmail());
             person.setMajors(ds.getValue(Person.class).getMajors());
             personList.add(person);
-
         }
 
         // there's something to display
         if (personList.size() > 0) {
-            mAdapter = new RecycleAdapter(personList);
+            mAdapter = new RecyclerAdapter(personList);
             mRecyclerView.setAdapter(mAdapter);
             mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+
+            // just for debugging
             Log.d("personlist", "" + personList);
         }
     }
